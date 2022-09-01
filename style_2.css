@@ -35,7 +35,6 @@
     /*background-color: rgb(36, 243, 147);*/
     animation: cardEntrance 1000ms ease-out;
     animation-fill-mode: backwards;
-    opacity: 0.7;
   }
   
   .card:nth-child(1) {
@@ -44,6 +43,7 @@
     /*background: linear-gradient(180deg,#051014,#2e2f2f);*/
     border-radius: 8px 10px 8px 10px;
     background: #CDDDDD;
+    opacity: 0.7;
     
   }
   .card:nth-child(2) {
@@ -51,6 +51,7 @@
     animation-delay: calc(2 * var(--stagger-delay));
     border-radius: 8px 10px 8px 10px;
     background: #CDDDDD;
+    opacity: 0.7;
   }
   .card:nth-child(3) {
     grid-area: c;
